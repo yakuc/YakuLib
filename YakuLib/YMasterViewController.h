@@ -2,8 +2,8 @@
 //  YMasterViewController.h
 //  YakuLib
 //
-//  Created by 薬師寺 信勝 on 2013/10/14.
-//  Copyright (c) 2013年 YAKUC. All rights reserved.
+//  Created by Nobukatsu Yakushiji on 2012/09/30.
+//  Copyright (c) 2012年 Nobukatsu Yakushiji All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

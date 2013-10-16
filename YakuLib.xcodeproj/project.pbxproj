@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AA2DEC9180DF1D5007A5F4E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AA2DEC8180DF1D5007A5F4E /* CoreData.framework */; };
 		3AA6D0E8180B7ED0009219C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AA6D0E7180B7ED0009219C5 /* Foundation.framework */; };
 		3AA6D0EA180B7ED0009219C5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AA6D0E9180B7ED0009219C5 /* CoreGraphics.framework */; };
 		3AA6D0EC180B7ED0009219C5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AA6D0EB180B7ED0009219C5 /* UIKit.framework */; };
@@ -23,6 +24,11 @@
 		3AA6D10F180B7ED0009219C5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AA6D0EB180B7ED0009219C5 /* UIKit.framework */; };
 		3AA6D117180B7ED0009219C5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3AA6D115180B7ED0009219C5 /* InfoPlist.strings */; };
 		3AA6D119180B7ED0009219C5 /* YakuLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA6D118180B7ED0009219C5 /* YakuLibTests.m */; };
+		3AA6D131180B7F55009219C5 /* NSManagedObject+YakuLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA6D124180B7F55009219C5 /* NSManagedObject+YakuLib.m */; };
+		3AA6D132180B7F55009219C5 /* UIAlertView+YakuLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA6D126180B7F55009219C5 /* UIAlertView+YakuLib.m */; };
+		3AA6D133180B7F55009219C5 /* YFetchedDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA6D128180B7F55009219C5 /* YFetchedDataSource.m */; };
+		3AA6D135180B7F55009219C5 /* YLoadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA6D12D180B7F55009219C5 /* YLoadModel.m */; };
+		3AA6D136180B7F55009219C5 /* YOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA6D130180B7F55009219C5 /* YOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3AA2DEC8180DF1D5007A5F4E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		3AA6D0E4180B7ED0009219C5 /* YakuLib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YakuLib.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AA6D0E7180B7ED0009219C5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3AA6D0E9180B7ED0009219C5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -58,6 +65,17 @@
 		3AA6D114180B7ED0009219C5 /* YakuLibTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YakuLibTests-Info.plist"; sourceTree = "<group>"; };
 		3AA6D116180B7ED0009219C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3AA6D118180B7ED0009219C5 /* YakuLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YakuLibTests.m; sourceTree = "<group>"; };
+		3AA6D123180B7F55009219C5 /* NSManagedObject+YakuLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+YakuLib.h"; path = "YakuLib/NSManagedObject+YakuLib.h"; sourceTree = "<group>"; };
+		3AA6D124180B7F55009219C5 /* NSManagedObject+YakuLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+YakuLib.m"; path = "YakuLib/NSManagedObject+YakuLib.m"; sourceTree = "<group>"; };
+		3AA6D125180B7F55009219C5 /* UIAlertView+YakuLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+YakuLib.h"; path = "YakuLib/UIAlertView+YakuLib.h"; sourceTree = "<group>"; };
+		3AA6D126180B7F55009219C5 /* UIAlertView+YakuLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+YakuLib.m"; path = "YakuLib/UIAlertView+YakuLib.m"; sourceTree = "<group>"; };
+		3AA6D127180B7F55009219C5 /* YFetchedDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YFetchedDataSource.h; path = YakuLib/YFetchedDataSource.h; sourceTree = "<group>"; };
+		3AA6D128180B7F55009219C5 /* YFetchedDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YFetchedDataSource.m; path = YakuLib/YFetchedDataSource.m; sourceTree = "<group>"; };
+		3AA6D12C180B7F55009219C5 /* YLoadModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLoadModel.h; path = YakuLib/YLoadModel.h; sourceTree = "<group>"; };
+		3AA6D12D180B7F55009219C5 /* YLoadModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YLoadModel.m; path = YakuLib/YLoadModel.m; sourceTree = "<group>"; };
+		3AA6D12E180B7F55009219C5 /* YLoadModelDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLoadModelDelegate.h; path = YakuLib/YLoadModelDelegate.h; sourceTree = "<group>"; };
+		3AA6D12F180B7F55009219C5 /* YOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YOperation.h; path = YakuLib/YOperation.h; sourceTree = "<group>"; };
+		3AA6D130180B7F55009219C5 /* YOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YOperation.m; path = YakuLib/YOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AA2DEC9180DF1D5007A5F4E /* CoreData.framework in Frameworks */,
 				3AA6D0EA180B7ED0009219C5 /* CoreGraphics.framework in Frameworks */,
 				3AA6D0EC180B7ED0009219C5 /* UIKit.framework in Frameworks */,
 				3AA6D0E8180B7ED0009219C5 /* Foundation.framework in Frameworks */,
@@ -106,6 +125,7 @@
 		3AA6D0E6180B7ED0009219C5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3AA2DEC8180DF1D5007A5F4E /* CoreData.framework */,
 				3AA6D0E7180B7ED0009219C5 /* Foundation.framework */,
 				3AA6D0E9180B7ED0009219C5 /* CoreGraphics.framework */,
 				3AA6D0EB180B7ED0009219C5 /* UIKit.framework */,
@@ -117,6 +137,7 @@
 		3AA6D0ED180B7ED0009219C5 /* YakuLib */ = {
 			isa = PBXGroup;
 			children = (
+				3AA6D122180B7F1C009219C5 /* YakuLib */,
 				3AA6D0F6180B7ED0009219C5 /* YAppDelegate.h */,
 				3AA6D0F7180B7ED0009219C5 /* YAppDelegate.m */,
 				3AA6D0F9180B7ED0009219C5 /* Main_iPhone.storyboard */,
@@ -158,6 +179,24 @@
 				3AA6D115180B7ED0009219C5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3AA6D122180B7F1C009219C5 /* YakuLib */ = {
+			isa = PBXGroup;
+			children = (
+				3AA6D123180B7F55009219C5 /* NSManagedObject+YakuLib.h */,
+				3AA6D124180B7F55009219C5 /* NSManagedObject+YakuLib.m */,
+				3AA6D125180B7F55009219C5 /* UIAlertView+YakuLib.h */,
+				3AA6D126180B7F55009219C5 /* UIAlertView+YakuLib.m */,
+				3AA6D127180B7F55009219C5 /* YFetchedDataSource.h */,
+				3AA6D128180B7F55009219C5 /* YFetchedDataSource.m */,
+				3AA6D12C180B7F55009219C5 /* YLoadModel.h */,
+				3AA6D12D180B7F55009219C5 /* YLoadModel.m */,
+				3AA6D12E180B7F55009219C5 /* YLoadModelDelegate.h */,
+				3AA6D12F180B7F55009219C5 /* YOperation.h */,
+				3AA6D130180B7F55009219C5 /* YOperation.m */,
+			);
+			name = YakuLib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,8 +300,13 @@
 			files = (
 				3AA6D0F8180B7ED0009219C5 /* YAppDelegate.m in Sources */,
 				3AA6D104180B7ED0009219C5 /* YDetailViewController.m in Sources */,
+				3AA6D131180B7F55009219C5 /* NSManagedObject+YakuLib.m in Sources */,
+				3AA6D135180B7F55009219C5 /* YLoadModel.m in Sources */,
+				3AA6D136180B7F55009219C5 /* YOperation.m in Sources */,
 				3AA6D0F4180B7ED0009219C5 /* main.m in Sources */,
 				3AA6D101180B7ED0009219C5 /* YMasterViewController.m in Sources */,
+				3AA6D132180B7F55009219C5 /* UIAlertView+YakuLib.m in Sources */,
+				3AA6D133180B7F55009219C5 /* YFetchedDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,6 +525,7 @@
 				3AA6D11E180B7ED0009219C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3AA6D11F180B7ED0009219C5 /* Build configuration list for PBXNativeTarget "YakuLibTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +534,7 @@
 				3AA6D121180B7ED0009219C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
