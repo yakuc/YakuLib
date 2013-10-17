@@ -1,5 +1,5 @@
 //
-//  NSManagedObject+Yakulib.h
+//  NSManagedObject+YakuLib.h
 //
 //  Created by Nobukatsu Yakushiji on 2012/09/30.
 //  Copyright (c) 2012年 Nobukatsu Yakushiji All rights reserved.
